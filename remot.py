@@ -41,8 +41,8 @@ if usr == 1:
        server = socket(AF_INET,SOCK_STREAM)
        server.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
        HOST = input("ENTER HOST: ")
-       PORT = int(input("ENTER PORT: "))
-       server.bind((HOST,PORT))
+       
+       server.bind((HOST,3333))
        print("Lintening...")
        server.listen(1)
        client,addr = server.accept()
