@@ -4,9 +4,10 @@ from socket import *
 
 def client():
     c=socket(AF_INET,SOCK_STREAM)
+    host = input ("ENTER HOST: ")
     while True:
         try:
-           c.connect(("127.0.0.1",3333))
+           c.connect((host,3333))
            break
         except ConnectionRefusedError:
            pass
