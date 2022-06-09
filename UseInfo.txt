@@ -1,0 +1,4 @@
+1. Step first
+Open share.py in any text editor
+Then change host name 
+
