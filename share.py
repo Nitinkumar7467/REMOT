@@ -6,7 +6,7 @@ def client():
     HOST = "127.0.0.1"
     
     c=socket(AF_INET,SOCK_STREAM)
-     while True:
+    while True:
         try:
            c.connect((HOST,3333))
            break
