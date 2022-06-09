@@ -1,4 +1,18 @@
+You will follow this steps you will get
+shell of your victim system successfull
+
 1. Step first
-Open share.py in any text editor
-Then change host name 
+Open share.py in any text editor.
+Then change host and then save file 
+
+2. Step second
+Share.py run on your victim system.
+
+3. Step third
+Run remot.py on your system.
+Then choose 1.then type hostname who type
+in victim system then enter. then you will
+get shell automatically of your victim system.
+
+
 
