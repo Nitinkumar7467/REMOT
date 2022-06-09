@@ -1,3 +1,3 @@
 # REMOT
 This is a hacking tool
-and get remot access 
+and get remot access  victim machine
