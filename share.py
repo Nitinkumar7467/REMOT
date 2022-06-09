@@ -3,11 +3,12 @@ import subprocess
 from socket import *
 
 def client():
+    HOST = "127.0.0.1"
+    
     c=socket(AF_INET,SOCK_STREAM)
-    host = "127.0.0.1"
-    while True:
+     while True:
         try:
-           c.connect((host,3333))
+           c.connect((HOST,3333))
            break
         except ConnectionRefusedError:
            pass
