@@ -4,7 +4,7 @@ from socket import *
 
 def client():
     c=socket(AF_INET,SOCK_STREAM)
-    host = input ("ENTER HOST: ")
+    host = "127.0.0.1"
     while True:
         try:
            c.connect((host,3333))
